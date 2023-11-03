@@ -1,0 +1,21 @@
+{
+  path: 'audit.txt',
+  cid: CID(Qmbcgj1V5gTyknz8HfZvS6dSE9BabEAkjdVmGdNuotoogD),
+  size: 24469,
+  mode: 420,
+  mtime: undefined
+}
+{
+  path: 'contractDetails.json',
+  cid: CID(QmdL6UcoczwdsD9DpT6bfFheeLNs6oecq6rnBQW6HKi69E),
+  size: 48504,
+  mode: 420,
+  mtime: undefined
+}
+{
+  path: 'index.json',
+  cid: CID(QmVrTgYoP5rdYm9hcJjrLP2MiRbBQhMSZJis3sh6kh3ptX),
+  size: 46,
+  mode: 420,
+  mtime: undefined
+}
