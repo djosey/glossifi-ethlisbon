@@ -7,7 +7,7 @@ const indexDict
 
 function vuePubIPFS (vueFile){
     //publish vue file to IPFS and return header
-    var fueFileHeaderIPFS
+    var vueFileHeaderIPFS
 }
 
 function auditPubIPFS (auditFile){
