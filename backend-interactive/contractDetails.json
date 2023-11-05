@@ -1,0 +1,355 @@
+{
+    "glossifi-audit": "Qmbcgj1V5gTyknz8HfZvS6dSE9BabEAkjdVmGdNuotoogD",
+    "glossifi-frontend": "k51qzi5uqu5di97q258amcztskk0tj05s6t5aa2h56o9vnrvo9rp59p6lb0zs9",
+    "compiler": {
+        "version": "0.7.6+commit.7338295f"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    },
+                    {
+                        "indexed": true,
+                        "internalType": "int24",
+                        "name": "tickSpacing",
+                        "type": "int24"
+                    }
+                ],
+                "name": "FeeAmountEnabled",
+                "type": "event"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "oldOwner",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "newOwner",
+                        "type": "address"
+                    }
+                ],
+                "name": "OwnerChanged",
+                "type": "event"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "token0",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "internalType": "address",
+                        "name": "token1",
+                        "type": "address"
+                    },
+                    {
+                        "indexed": true,
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    },
+                    {
+                        "indexed": false,
+                        "internalType": "int24",
+                        "name": "tickSpacing",
+                        "type": "int24"
+                    },
+                    {
+                        "indexed": false,
+                        "internalType": "address",
+                        "name": "pool",
+                        "type": "address"
+                    }
+                ],
+                "name": "PoolCreated",
+                "type": "event"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "tokenA",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "tokenB",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    }
+                ],
+                "name": "createPool",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "pool",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    },
+                    {
+                        "internalType": "int24",
+                        "name": "tickSpacing",
+                        "type": "int24"
+                    }
+                ],
+                "name": "enableFeeAmount",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint24",
+                        "name": "",
+                        "type": "uint24"
+                    }
+                ],
+                "name": "feeAmountTickSpacing",
+                "outputs": [
+                    {
+                        "internalType": "int24",
+                        "name": "",
+                        "type": "int24"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "",
+                        "type": "uint24"
+                    }
+                ],
+                "name": "getPool",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "owner",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "parameters",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "factory",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "token0",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "token1",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "fee",
+                        "type": "uint24"
+                    },
+                    {
+                        "internalType": "int24",
+                        "name": "tickSpacing",
+                        "type": "int24"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_owner",
+                        "type": "address"
+                    }
+                ],
+                "name": "setOwner",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "kind": "dev",
+            "methods": {
+                "createPool(address,address,uint24)": {
+                    "details": "tokenA and tokenB may be passed in either order: token0/token1 or token1/token0. tickSpacing is retrieved from the fee. The call will revert if the pool already exists, the fee is invalid, or the token arguments are invalid.",
+                    "params": {
+                        "fee": "The desired fee for the pool",
+                        "tokenA": "One of the two tokens in the desired pool",
+                        "tokenB": "The other of the two tokens in the desired pool"
+                    },
+                    "returns": {
+                        "pool": "The address of the newly created pool"
+                    }
+                },
+                "enableFeeAmount(uint24,int24)": {
+                    "details": "Fee amounts may never be removed once enabled",
+                    "params": {
+                        "fee": "The fee amount to enable, denominated in hundredths of a bip (i.e. 1e-6)",
+                        "tickSpacing": "The spacing between ticks to be enforced for all pools created with the given fee amount"
+                    }
+                },
+                "setOwner(address)": {
+                    "details": "Must be called by the current owner",
+                    "params": {
+                        "_owner": "The new owner of the factory"
+                    }
+                }
+            },
+            "stateVariables": {
+                "feeAmountTickSpacing": {
+                    "details": "A fee amount can never be removed, so this value should be hard coded or cached in the calling context",
+                    "params": {
+                        "fee": "The enabled fee, denominated in hundredths of a bip. Returns 0 in case of unenabled fee"
+                    },
+                    "return": "The tick spacing"
+                },
+                "getPool": {
+                    "details": "tokenA and tokenB may be passed in either token0/token1 or token1/token0 order",
+                    "params": {
+                        "fee": "The fee collected upon every swap in the pool, denominated in hundredths of a bip",
+                        "tokenA": "The contract address of either token0 or token1",
+                        "tokenB": "The contract address of the other token"
+                    },
+                    "return": "pool The pool address"
+                },
+                "owner": {
+                    "details": "Can be changed by the current owner via setOwner",
+                    "return": "The address of the factory owner"
+                }
+            },
+            "title": "Canonical Uniswap V3 factory",
+            "version": 1
+        },
+        "userdoc": {
+            "events": {
+                "FeeAmountEnabled(uint24,int24)": {
+                    "notice": "Emitted when a new fee amount is enabled for pool creation via the factory"
+                },
+                "OwnerChanged(address,address)": {
+                    "notice": "Emitted when the owner of the factory is changed"
+                },
+                "PoolCreated(address,address,uint24,int24,address)": {
+                    "notice": "Emitted when a pool is created"
+                }
+            },
+            "kind": "user",
+            "methods": {
+                "createPool(address,address,uint24)": {
+                    "notice": "Creates a pool for the given two tokens and fee"
+                },
+                "parameters()": {
+                    "notice": "Get the parameters to be used in constructing the pool, set transiently during pool creation."
+                },
+                "setOwner(address)": {
+                    "notice": "Updates the owner of the factory"
+                }
+            },
+            "notice": "Deploys Uniswap V3 pools and manages ownership and control over pool protocol fees",
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "contracts/UniswapV3Factory.sol": "UniswapV3Factory"
+        },
+        "evmVersion": "istanbul",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "none",
+            "useLiteralContent": true
+        },
+        "optimizer": {
+            "enabled": true,
+            "runs": 800
+        },
+        "remappings": []
+    },
+    "sources": {
+        "contracts/NoDelegateCall.sol": {
+            "content": "// SPDX-License-Identifier: BUSL-1.1\npragma solidity =0.7.6;\n\n/// @title Prevents delegatecall to a contract\n/// @notice Base contract that provides a modifier for preventing delegatecall to methods in a child contract\nabstract contract NoDelegateCall {\n    /// @dev The original address of this contract\n    address private immutable original;\n\n    constructor() {\n        // Immutables are computed in the init code of the contract, and then inlined into the deployed bytecode.\n        // In other words, this variable won't change when it's checked at runtime.\n        original = address(this);\n    }\n\n    /// @dev Private method is used instead of inlining into modifier because modifiers are copied into each method,\n    ///     and the use of immutable means the address bytes are copied in every place the modifier is used.\n    function checkNotDelegateCall() private view {\n        require(address(this) == original);\n    }\n\n    /// @notice Prevents delegatecall into the modified method\n    modifier noDelegateCall() {\n        checkNotDelegateCall();\n        _;\n    }\n}\n",
+            "keccak256": "0xc12ceb98dc803a7d745d7e7c53175b4c5b7781dd26e6f5d233deecd8b0d0d1dc",
+            "license": "BUSL-1.1"
+        },
+        "contracts/libraries/UnsafeMath.sol": {
+            "content": "// SPDX-License-Identifier: GPL-2.0-or-later\npragma solidity >=0.5.0;\n\n/// @title Math functions that do not check inputs or outputs\n/// @notice Contains methods that perform common math functions but do not do any overflow or underflow checks\nlibrary UnsafeMath {\n    /// @notice Returns ceil(x / y)\n    /// @dev division by 0 has unspecified behavior, and must be checked externally\n    /// @param x The dividend\n    /// @param y The divisor\n    /// @return z The quotient, ceil(x / y)\n    function divRoundingUp(uint256 x, uint256 y) internal pure returns (uint256 z) {\n        assembly {\n            z := add(div(x, y), gt(mod(x, y), 0))\n        }\n    }\n}\n",
+            "keccak256": "0x5f36d7d16348d8c37fe64fda932018d6e5e8acecd054f0f97d32db62d20c6c88",
+            "license": "GPL-2.0-or-later"
+        }
+    },
+    "version": 1
+}

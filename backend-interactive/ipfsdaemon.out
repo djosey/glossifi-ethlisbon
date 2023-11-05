@@ -1,0 +1,44 @@
+Initializing daemon...
+Kubo version: 0.20.0
+Repo version: 13
+System version: arm64/darwin
+Golang version: go1.19.8
+
+Computed default go-libp2p Resource Manager limits based on:
+    - 'Swarm.ResourceMgr.MaxMemory': "8.6 GB"
+    - 'Swarm.ResourceMgr.MaxFileDescriptors': 30720
+
+Theses can be inspected with 'ipfs swarm resources'.
+
+Swarm listening on /ip4/10.136.167.162/tcp/4001
+Swarm listening on /ip4/10.136.167.162/udp/4001/quic
+Swarm listening on /ip4/10.136.167.162/udp/4001/quic-v1
+Swarm listening on /ip4/10.136.167.162/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/127.0.0.1/udp/4001/quic
+Swarm listening on /ip4/127.0.0.1/udp/4001/quic-v1
+Swarm listening on /ip4/127.0.0.1/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /ip6/::1/udp/4001/quic
+Swarm listening on /ip6/::1/udp/4001/quic-v1
+Swarm listening on /ip6/::1/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+Swarm listening on /p2p-circuit
+Swarm announcing /ip4/10.136.167.162/tcp/4001
+Swarm announcing /ip4/10.136.167.162/udp/4001/quic
+Swarm announcing /ip4/10.136.167.162/udp/4001/quic-v1
+Swarm announcing /ip4/10.136.167.162/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/127.0.0.1/udp/4001/quic
+Swarm announcing /ip4/127.0.0.1/udp/4001/quic-v1
+Swarm announcing /ip4/127.0.0.1/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+Swarm announcing /ip6/::1/tcp/4001
+Swarm announcing /ip6/::1/udp/4001/quic
+Swarm announcing /ip6/::1/udp/4001/quic-v1
+Swarm announcing /ip6/::1/udp/4001/quic-v1/webtransport/certhash/uEiDmuoFkvE6jSBMCv7kvxstHbOGorKPy4639lNM-VIgdfQ/certhash/uEiCYqjgG38ZqEHyjRK4tPouF-HIDjjHnw9TmDhX7QytSxw
+RPC API server listening on /ip4/127.0.0.1/tcp/5001
+WebUI: http://127.0.0.1:5001/webui
+Gateway server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
+
+Received interrupt signal, shutting down...
+(Hit ctrl-c again to force-shutdown the daemon.)
