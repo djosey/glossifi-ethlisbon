@@ -1,5 +1,5 @@
 {
-    "/build/app.js": "/build/app.js",
-    "/build/app.css": "/build/app.css",
-    "/build/index.html": "/build/index.html"
+    "/app.js": "/app.js",
+    "/app.css": "/app.css",
+    "/index.html": "/index.html"
 }

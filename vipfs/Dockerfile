@@ -1,9 +1,4 @@
-FROM node:latest
+FROM ipfs/go-ipfs
 
-COPY . /app
-
-WORKDIR /app
-
-RUN npm install
-
-ENTRYPOINT [ "node", "/app/server.js" ]
+RUN mkdir /scripts
+COPY ./publish /scripts
